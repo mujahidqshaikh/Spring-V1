@@ -27,13 +27,7 @@ public class LoginTest {
 		assertTrue(user.ValidateUser("admin","12345"));
 		
 	}
-	@Test
-	public void LoginTest1()
-	{
-		LoginDao user=new UserDaoImpl();
-		assertTrue(user.ValidateUser("admin","98y87874"));
-		
-	}
+	
 	
 	
 	@After
